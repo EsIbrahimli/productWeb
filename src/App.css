@@ -551,3 +551,393 @@ footer{
   transform: scale(1.05);
   box-shadow: 0 0 20px 0 rgba(200, 117, 255, 0.6);
 }
+
+/* ========== RESPONSIVE STYLES ========== */
+
+/* Tablet Styles (max-width: 1024px) */
+@media screen and (max-width: 1024px) {
+  .nav-list {
+    gap: 30px;
+    margin-right: 50px;
+  }
+
+  .logo {
+    width: 80px;
+    height: 80px;
+  }
+
+  .about-title,
+  .contact-title {
+    font-size: 36px;
+  }
+
+  .about-description,
+  .contact-subtitle {
+    font-size: 18px;
+  }
+
+  .product-detail .product-title {
+    padding-left: 50px;
+  }
+
+  .product-detail .product-description {
+    width: 90%;
+    max-width: 600px;
+    padding-left: 50px;
+  }
+
+  .product-detail .product-price {
+    padding-left: 50px;
+  }
+
+  .product-detail .product-img {
+    width: 400px;
+    height: 300px;
+  }
+
+  .contact-content {
+    gap: 30px;
+  }
+
+  .contact-form-container {
+    min-width: 350px;
+  }
+}
+
+/* Mobile Styles (max-width: 768px) */
+@media screen and (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    padding: 15px 20px;
+    gap: 15px;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    gap: 15px;
+    margin-right: 0;
+    width: 100%;
+    align-items: center;
+  }
+
+  .nav-link {
+    font-size: 16px !important;
+    padding: 8px 15px;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .logo {
+    width: 70px;
+    height: 70px;
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  .order-now-button {
+    padding: 12px 20px;
+    font-size: 14px;
+  }
+
+  /* Menu Page */
+  .menu-title {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+
+  .menu-container {
+    padding: 15px 10px;
+  }
+
+  .product-card {
+    width: 100%;
+    max-width: 280px;
+    margin: 10px 5px;
+  }
+
+  .product-img {
+    height: 180px;
+  }
+
+  .product-title {
+    font-size: 16px;
+  }
+
+  .product-desc {
+    font-size: 13px;
+  }
+
+  .product-price {
+    font-size: 15px;
+  }
+
+  /* Detail Page */
+  .product-detail {
+    align-items: center;
+    padding: 20px 15px;
+  }
+
+  .product-detail .product-img {
+    width: 100%;
+    max-width: 350px;
+    height: 250px;
+    margin: 0 auto;
+  }
+
+  .product-detail .product-title {
+    font-size: 20px;
+    padding-left: 0;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .product-detail .product-description {
+    font-size: 16px;
+    width: 100%;
+    padding-left: 0;
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .product-detail .product-price {
+    font-size: 20px;
+    padding-left: 0;
+    text-align: center;
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  /* About Page */
+  .about-hero {
+    padding: 20px 15px;
+  }
+
+  .about-title {
+    font-size: 28px;
+  }
+
+  .about-description {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+
+  .about-sections {
+    padding: 15px 10px;
+    gap: 20px;
+  }
+
+  .about-card {
+    max-width: 100%;
+    padding: 25px 15px;
+  }
+
+  .about-card-title {
+    font-size: 20px;
+  }
+
+  .about-card-text {
+    font-size: 14px;
+  }
+
+  /* Contact Page */
+  .contact-hero {
+    padding: 20px 15px;
+  }
+
+  .contact-title {
+    font-size: 28px;
+  }
+
+  .contact-subtitle {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+
+  .contact-content {
+    flex-direction: column;
+    padding: 15px 10px;
+    gap: 30px;
+  }
+
+  .contact-form-container {
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  .contact-form {
+    padding: 25px 20px;
+  }
+
+  .form-label {
+    font-size: 16px;
+  }
+
+  .form-input,
+  .form-textarea {
+    font-size: 14px;
+    padding: 10px 12px;
+  }
+
+  .contact-submit-button {
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px;
+  }
+
+  .contact-info {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .contact-info-card {
+    width: 100%;
+    padding: 20px 15px;
+  }
+
+  .contact-info-title {
+    font-size: 20px;
+  }
+
+  .contact-info-text {
+    font-size: 14px;
+  }
+
+  /* 404 Page */
+  .notfound-wrapper {
+    padding: 30px 15px;
+    min-height: 50vh;
+  }
+
+  .notfound-content {
+    padding: 30px 20px;
+    max-width: 100%;
+  }
+
+  .notfound-title {
+    font-size: 80px;
+  }
+
+  .notfound-subtitle {
+    font-size: 24px;
+  }
+
+  .notfound-description {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+
+  .notfound-button {
+    width: 100%;
+    max-width: 250px;
+    font-size: 16px;
+    padding: 12px 20px;
+  }
+
+  footer {
+    margin-bottom: 15px;
+  }
+}
+
+/* Small Mobile Styles (max-width: 480px) */
+@media screen and (max-width: 480px) {
+  nav {
+    padding: 10px 15px;
+  }
+
+  .logo {
+    width: 60px;
+    height: 60px;
+  }
+
+  .nav-link {
+    font-size: 14px !important;
+    padding: 6px 12px;
+  }
+
+  .order-now-button {
+    padding: 10px 18px;
+    font-size: 13px;
+  }
+
+  .menu-title {
+    font-size: 22px;
+    margin-top: 15px;
+  }
+
+  .product-card {
+    max-width: 100%;
+    margin: 8px 0;
+  }
+
+  .product-img {
+    height: 160px;
+  }
+
+  .about-title,
+  .contact-title {
+    font-size: 24px;
+  }
+
+  .about-description,
+  .contact-subtitle {
+    font-size: 14px;
+  }
+
+  .about-card {
+    padding: 20px 12px;
+  }
+
+  .about-card-title {
+    font-size: 18px;
+  }
+
+  .about-card-text {
+    font-size: 13px;
+  }
+
+  .contact-form {
+    padding: 20px 15px;
+  }
+
+  .form-label {
+    font-size: 14px;
+  }
+
+  .form-input,
+  .form-textarea {
+    font-size: 13px;
+    padding: 8px 10px;
+  }
+
+  .notfound-title {
+    font-size: 60px;
+  }
+
+  .notfound-subtitle {
+    font-size: 20px;
+  }
+
+  .notfound-description {
+    font-size: 14px;
+  }
+
+  .product-detail .product-img {
+    height: 200px;
+  }
+
+  .product-detail .product-title {
+    font-size: 18px;
+  }
+
+  .product-detail .product-description {
+    font-size: 14px;
+  }
+
+  .product-detail .product-price {
+    font-size: 18px;
+  }
+}
